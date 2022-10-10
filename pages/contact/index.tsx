@@ -5,8 +5,11 @@ type Props = {}
 const Contact = (props: Props) => {
     return (
         <div>
-           
-            <div className="main w-[1410px] mx-auto mt-[112px] grid grid-cols-2">
+            <iframe className="w-full"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.863855881428!2d105.74459841482062!3d21.03813279283435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b991d80fd5%3A0x53cefc99d6b0bf6f!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1664180971300!5m2!1svi!2s"
+            width="600" height="450" loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <div className="main w-[1410px] mx-auto mt-[80px] grid grid-cols-2">
                 <div className="mr-[81px]">
                     <h2 className="text-2xl mb-[30px]">LIÊN HỆ</h2>
                     <span className="text-[#6E6F7E] ">Nếu bạn muốn biết thêm về các chính sách của chúng tôi, bạn có thể tham khảo
@@ -51,7 +54,7 @@ const Contact = (props: Props) => {
                         className="w-[690px] h-[60px] border border-[#A4A5AE] pl-[24px] mt-[30px]"/>
                         <input type="text" placeholder="Email của bạn"
                             className="w-[690px] h-[60px] border border-[#A4A5AE] pl-[24px] mt-[30px]"/>
-                            <textarea name="" id="" className="w-[690px] border border-[#A4A5AE] mt-[30px]">
+                            <textarea name="" id="" className="w-[690px] border border-[#A4A5AE] mt-[30px] h-[120px]">
                             </textarea>
                             <div>
                                 <button className="bg-black w-[690px] h-[60px] mt-[28px] ">
