@@ -59,7 +59,7 @@ const cartDetail = (props: Props) => {
                                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                                     <th scope="row"
                                         className="flex py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white w-[240px]">
-                                        <Image src="./img//Main image.png" className="w-[100px] h-[120px]" alt="" />
+                                        <Image src="/img//Main image.png" layout='fill' className="w-[100px] h-[120px]" alt="" />
                                         <p className="ml-[40px] my-auto text-base">Tên Sản Phẩm</p>
                                     </th>
                                     <td className="py-4 px-6 text-base">
