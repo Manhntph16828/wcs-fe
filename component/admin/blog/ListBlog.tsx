@@ -127,11 +127,11 @@ const BlogList = (props: Props) => {
                                     Edit
                                 </span>
                             </Link>
-                            <Link href={`/admin/blogs/${item._id}/info`}>
+                            {/* <Link href={`/admin/blogs/${item._id}/info`}>
                                 <span className="h-8 inline-flex items-center px-3 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                                     Xem chi tết
                                 </span>
-                            </Link>
+                            </Link> */}
                             <button
                                 onClick={() => handleRemove(item._id)}
                                 className="h-8 inline-flex items-center px-3 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ml-3"
