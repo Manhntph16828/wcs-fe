@@ -1,12 +1,18 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import { Space, Table, Tag } from 'antd';
+import type { ColumnsType } from 'antd/es/table';
 import React, { ReactElement } from 'react'
 import BlogList from '../../../component/admin/blog/ListBlog';
 import { AdminLayout } from '../../../layouts';
 
 type Props = {}
 
+
+
 const Blog = (props: Props) => {
+    
+
     return (
         <div>
             <>

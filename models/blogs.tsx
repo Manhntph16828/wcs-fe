@@ -7,7 +7,7 @@ export interface Tblog {
     content: string,
     categoryId: {
         name: string
-    }
+    },
 }
 export interface userErr {
     error: "string"

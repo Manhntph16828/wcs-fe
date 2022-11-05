@@ -4,6 +4,7 @@ import { AppPropsWithLayout } from "../models/layout";
 import { Provider } from "react-redux";
 import persistor, { store } from "../redux/store";
 import { PersistGate } from "redux-persist/integration/react";
+import 'antd/dist/antd.css'
 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
